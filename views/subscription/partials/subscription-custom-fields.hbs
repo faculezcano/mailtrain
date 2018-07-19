@@ -115,9 +115,10 @@
         </div>
     {{/if}}
 
-    {{#if typeCheckboxGrouped}}
-        <div class="form-group checkbox">
+    {{#if typeCheckbox}}
+        <div class="form-group checkbox {{key}}">
             <label>{{name}}</label>
+            <input type="hidden" name="origin_{{key}}" value="webform">
             {{#each options}}
                 <label class="label-checkbox">
                     <input type="checkbox" name="{{key}}" value="1" {{#if value}} checked {{/if}}> {{name}}

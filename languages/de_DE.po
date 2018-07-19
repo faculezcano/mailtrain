@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-04 00:45+0200\n"
-"PO-Revision-Date: 2017-05-04 00:46+0200\n"
+"PO-Revision-Date: 2018-03-07 14:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: views/archive/layout.hbs:1 views/layout.hbs:1
@@ -872,7 +872,7 @@ msgstr "Hallo [FIRST_NAME/Customer],"
 
 #: views/emails/stationery-html.hbs:2 views/emails/stationery-text.hbs:2
 msgid "Cheers,"
-msgstr "Viele Grüsse,"
+msgstr "Viele Grüße,"
 
 #: views/index.hbs:1
 msgid "List Management"
@@ -918,16 +918,16 @@ msgstr "Mailtrain bietet auch benutzerdefinierte Formulare."
 
 #: views/index.hbs:8
 msgid "List Segmentation"
-msgstr "Listen Segementierung"
+msgstr "Segmentierung"
 
 #: views/index.hbs:9
 msgid ""
 "Send messages only to list subscribers that match predefined segmentation "
 "rules. No need to create separate lists with small differences."
 msgstr ""
-"Senden Sie nur Nachrichten an Abonnenten welche die vordefinierten "
-"Segmentierungsregeln erfüllen. Keine Notwendigkeit, separate Listen mit "
-"kleinen Unterschieden zu erstellen."
+"Senden Sie nur Nachrichten an Abonnenten, welche die vordefinierten "
+"Segmentierungsregeln erfüllen. Es besteht keine Notwendigkeit, separate "
+"Listen mit kleinen Unterschieden zu erstellen."
 
 #: views/index.hbs:11
 msgid "RSS Campaigns"
@@ -954,7 +954,7 @@ msgid ""
 msgstr ""
 "Wenn für eine Liste ein benutzerdefiniertes Feld für den GPG-Public-Key "
 "vorhanden ist, können Abonnenten ihren GPG-Public-Key hochladen, um "
-"verschlüsselte E-Mails dieser der Liste zu empfangen."
+"verschlüsselte E-Mails der Liste zu empfangen."
 
 #: views/index.hbs:17
 msgid "Click Stats"
@@ -984,7 +984,7 @@ msgstr ""
 
 #: views/index.hbs:23
 msgid "Send via Any Provider"
-msgstr "Sende mit "
+msgstr "Sende mit"
 
 #: views/index.hbs:24
 msgid ""
@@ -1121,7 +1121,7 @@ msgstr "Liste erstellen"
 
 #: views/lists/create.hbs:6 views/lists/edit.hbs:7
 msgid "List Name"
-msgstr "Linstennamen"
+msgstr "Name der Liste"
 
 #: views/lists/create.hbs:9 views/lists/edit.hbs:15
 msgid "Allow public users to subscribe themselves"
@@ -1472,7 +1472,7 @@ msgstr "ID"
 
 #: views/lists/lists.hbs:7 views/reports/partials/report-fields.hbs:10
 msgid "Subscribers"
-msgstr "Abonnenten "
+msgstr "Abonnenten"
 
 #: views/lists/segments/create.hbs:3 views/lists/segments/edit.hbs:3
 #: views/lists/segments/rule-configure.hbs:3
@@ -1966,7 +1966,7 @@ msgstr "Mosaico öffnen"
 
 #: views/partials/plaintext.hbs:1
 msgid "Template content (plaintext)"
-msgstr "Vorlagen-Inhalt (Klartext) "
+msgstr "Vorlagen-Inhalt (Klartext)"
 
 #: views/report-templates/create.hbs:2 views/report-templates/edit.hbs:2
 #: views/report-templates/report-templates.hbs:2
@@ -2386,7 +2386,7 @@ msgstr "VERP verwenden um bounces zu erfassen"
 
 #: views/settings.hbs:71
 msgid "Server hostname"
-msgstr "Server Hostname"
+msgstr "Hostname"
 
 #: views/settings.hbs:72
 msgid "The VERP server hostname, eg. bounces.example.com"
@@ -2462,7 +2462,7 @@ msgstr ""
 
 #: views/settings.hbs:84
 msgid "DKIM Signing by ZoneMTA"
-msgstr "DKIM Signing by ZoneMTA"
+msgstr "DKIM Signing durch ZoneMTA"
 
 #: views/settings.hbs:85
 msgid ""
@@ -2507,7 +2507,7 @@ msgstr "DKIM Domain"
 
 #: views/settings.hbs:91
 msgid "Domain name for the DKIM key"
-msgstr "Domain-Name für den DKIM Key"
+msgstr "Domain-Name für den DKIM-Key"
 
 #: views/settings.hbs:92
 msgid "Leave blank to use the sender email address domain"
@@ -2582,7 +2582,7 @@ msgstr "Ihr Abonnement für unsere Liste wurde bestätigt"
 
 #: views/subscription/mail-subscription-confirmed-html.mjml.hbs:3
 msgid "If you want to modify your subscription then you can "
-msgstr "Wenn Sie Ihr Abonnement ändern möchten, dann können Sie"
+msgstr "Wenn Sie Ihr Abonnement ändern möchten, dann können Sie "
 
 #: views/subscription/mail-subscription-confirmed-html.mjml.hbs:4
 #: views/subscription/mail-subscription-confirmed-text.hbs:4
@@ -2731,7 +2731,7 @@ msgstr "Einstellungen aktualisieren"
 
 #: views/subscription/web-subscribe.mjml.hbs:1
 msgid "Subscribe to List"
-msgstr "Diese Liste Abonnieren"
+msgstr "Diese Liste abonnieren"
 
 #: views/subscription/web-subscribed.mjml.hbs:3
 msgid "Thank you for subscribing!"
@@ -2900,7 +2900,7 @@ msgstr "Ihre E-Mail-Adresse"
 
 #: views/users/account.hbs:9
 msgid ""
-"This address is used for account recovery in case you loose your password"
+"This address is used for account recovery in case you lose your password"
 msgstr ""
 "Diese Adresse wird für die Wiederherstellung des Kontos verwendet, falls Sie "
 "Ihr Passwort vergessen haben"
@@ -3185,7 +3185,7 @@ msgstr "Wähle Sie Ihr neues Passwort"
 
 #: views/users/reset.hbs:5
 msgid "Please enter a new password."
-msgstr "Bitte geben Sie ein neues Passwort ein"
+msgstr "Bitte geben Sie ein neues Passwort ein."
 
 #: lib/editor-helpers.js:17 routes/templates.js:95
 msgid "Could not find template with specified ID"
@@ -3488,11 +3488,11 @@ msgid "Could not save subscription"
 msgstr "Abonnement konnte nicht gespeichert werden"
 
 #: lib/models/subscriptions.js:441 lib/models/subscriptions.js:471
-msgid "Missing Subbscription ID"
+msgid "Missing Subscription ID"
 msgstr "Abonnement-ID fehlt"
 
 #: lib/models/subscriptions.js:499
-msgid "Missing Subbscription email address"
+msgid "Missing Subscription email address"
 msgstr "Abonnement-E-Mail-Adresse fehlt"
 
 #: lib/models/subscriptions.js:578 lib/models/subscriptions.js:827
